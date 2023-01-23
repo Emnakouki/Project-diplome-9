@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0 ;
+}
+ 
+body {
+    height: 2000px;
+}
+UL { 
+    background-color: black ;
+    text-align: center;
+
+}
+
+
+UL li {
+    display: inline-block;
+    margin: 20px;
+
+}
+ul li :hover {
+    background-color: red;
+
+}
+ ul li a {
+    color: white;
+    text-decoration: none;
+
+ }
+
+ /* start hero section */
+
+ .hero{
+    height: 500px;
+    background-image: url('../images/hero.jpg');
+    background-position: center center;
+ }
+
+.ABOUT-US {
+    margin-top: 50px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.ABOUT-US h1 {
+    margin-bottom: 30px;
+    color: red;
+    font-size: 35px;
+}
+.ALL-box {
+    display:  flex ;
+    
+}
+
+.box {
+    background-color: rgb(109, 105, 105);
+    width: 30% ;
+    margin: auto;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.box:hover {
+   box-shadow: 10px 10px 10px red;  
+
+}
+
+i  {
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-flex
+    justify-content: contents ;
+}
+
+.box h3 {
+    font-size: 25px;
+    color: red;
+    margin-top: 20px;
+}
+
+.box p {
+    text-align: center;
+    margin-top: 10px
+    
+}
+
+.content {
+    text-align: center;
+    width: 80%;
+    margin-top: 50px;
+    margin: auto;
+
+}
+.content  h1 {
+    margin-bottom: 30px;
+    color: red;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.content img {
+    width: 300px;
+}
+
+.content p {
+    margin-bottom: 20px;
+
+}
+
+/* Start contact us */
+
+.Contact-us {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Contact-us .contact-form {
+    width: 700px;
+    background-color:rgb(116, 113, 113);
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.input-form input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid black ;
+    border-radius: 3px;
+    margin-bottom: 20px;
+
+}
+
+.input-form input:focus {
+    border: 1px solid rgb(153, 150, 150);
+    outline: none;
+
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+    border: 1px solid rgb(116, 113, 113);
+    border-radius: 3px;
+}
+
+.btn-send {
+    background-color: rgb(247, 86, 86);
+    color: white;
+    width: 200;
+    height: 50px;
+    border: 1px solid rgb(116, 113, 113);
+    font: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.btn-send:hover {
+    background-color: red;
+}
+
+
+footer {
+    height: 100px;
+    color: white;
+    text-align: center;
+    background-color: grey;
+    line-height: 100px;
+}
